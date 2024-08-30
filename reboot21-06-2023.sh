@@ -102,7 +102,7 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 source /usr/share/gentoo-bashrc/bashrc
 #source /usr/share/doc/pkgfile/command-not-found.bash
-export PATH=/home/trading/util/:/home/trading/scripts/:$PATH
+export PATH=/home/trading/util/:/home/trading/scripts/:\$PATH
 export EDITOR=vim
 alias vi='vim'
 EOF
