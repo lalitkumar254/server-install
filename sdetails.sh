@@ -19,6 +19,10 @@ lscpu | grep avx >> $x.txt
 echo "************************ GCC Version ************************" >> $x.txt
 gcc --version >> $x.txt
 
+# Write Python Version section
+echo "************************ Python Version ************************" >> $x.txt
+python3 --version >> $x.txt
+
 # Write DATE section
 echo "************************ DATE ************************" >> $x.txt
 date >> $x.txt
