@@ -51,6 +51,10 @@ cat /proc/meminfo | head -n 20 >> $x.txt
 echo "************************ MB info ************************" >> $x.txt
 dmidecode -t2 >> $x.txt
 
+#Motherboard Serial number
+echo "************************ MB Serial Number ************************" >> $x.txt
+dmidecode -s system-serial-number
+
 # Write CPU Frequency section
 echo "************************ CPU Frequency  ************************" >> $x.txt
 dmidecode -t processor | grep "Speed" >> $x.txt
