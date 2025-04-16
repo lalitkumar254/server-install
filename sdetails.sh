@@ -53,7 +53,7 @@ dmidecode -t2 >> $x.txt
 
 #Motherboard Serial number
 echo "************************ MB Serial Number ************************" >> $x.txt
-dmidecode -s system-serial-number
+dmidecode -s system-serial-number >> $x.txt
 
 # Write CPU Frequency section
 echo "************************ CPU Frequency  ************************" >> $x.txt
