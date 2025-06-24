@@ -315,6 +315,9 @@ mprime
 openbsd-netcat
 lm_sensors
 python2-linux-procfs
+ethtool
+net-tools
+inetutils
 "
 for i in $packages
 do
