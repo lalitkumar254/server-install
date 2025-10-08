@@ -41,7 +41,7 @@ lscpu | head -n 16 >> $x.txt
 
 # Write RAM Info section
 echo "************************ RAM Info ************************" >> $x.txt
-dmidecode -t17 | head -n 35 >> $x.txt
+dmidecode -t memory >> $x.txt
 
 # Write Memory Info section
 echo "************************ Memory Info ************************" >> $x.txt
