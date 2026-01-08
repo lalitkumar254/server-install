@@ -1,2 +1,0 @@
-*exanic_gcc12_direct.zip filter=lfs diff=lfs merge=lfs -text
-exanic_gcc12_direct.zip filter=lfs diff=lfs merge=lfs -text
